@@ -1,3 +1,17 @@
+# SOUTENANCE PROJET DOCKER - GITFLOW
+
+## Starter
+
+- Gitclone
+- add remote back-up like [here](https://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes)
+
+
+
+
+
+
+
+
 Objectif:
 
 Vous devez connecter les services docker entre eux pour que le PHP puisse accéder à votre BDD et afficher la liste d'articles.
