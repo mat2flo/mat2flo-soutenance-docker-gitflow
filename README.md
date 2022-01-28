@@ -1,5 +1,10 @@
 # SOUTENANCE PROJET DOCKER - GITFLOW
 
+## Présentation du projet
+
+Ce projet a été realisé poure le projet DOCKER-GITFLOW.
+L'objectif était de respecter au mieux toutes les meilleures pratiques git, en utilisant github et gitlab pour le backup.
+
 ## Lancer le projet
 
 - git clone https://github.com/mat2flo/mat2flo-soutenance-docker-gitflow.git
@@ -11,25 +16,15 @@
 
 ## Comment contribuer au projet
 
-Demander
-après le git clone: git@github.com:mat2flo/mat2flo-soutenance-docker-gitflow.git
-git remote set-url --add --push origin https://gitlab.com/matteo41/backup-mat2flo-soutenance-docker-gitflow.git)
+-> Il faut être développeur du projet
+
+- git clone git@github.com:mat2flo/mat2flo-soutenance-docker-gitflow.git
+- git remote set-url --add --push origin https://gitlab.com/matteo41/backup-mat2flo-soutenance-docker-gitflow.git)
+
+Vous pouvez maintenant git push
 
 ## Conventions
 
-## Présentation du projet
+Il faut tirer une branche à partir de la branche develop puis faire une merge request sur develop.
 
-Ce projet a été realisé poure le projet DOCKER-GITFLOW.
-L'objectif était de respecter au mieux toutes les meilleures pratiques git, en utilisant github et gitlab pour le backup.
-
-## Comment participer au projet
-
-Vous devez connecter les services docker entre eux pour que le PHP puisse accéder à votre BDD et afficher la liste d'articles.
-
-Reprendre le template de code du repo.
-
-Créer votre propre repo GitHub (ou un fork) pour héberger votre solution proposée
-
-Vous devez compléter le docker-compose pour faire fonctionner les services entre eux.
-
-Compléter le fichier config.php avec les bonnes informations pour que PDO puisse se connecter à votre BDD
+La branche main sert de branche officielle de production
