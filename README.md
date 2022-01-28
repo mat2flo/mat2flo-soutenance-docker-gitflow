@@ -3,7 +3,7 @@
 ## Présentation du projet
 
 Ce projet a été realisé poure le projet DOCKER-GITFLOW.
-L'objectif était de respecter au mieux toutes les meilleures pratiques git, en utilisant github et gitlab pour le backup.
+L'objectif était de respecter au dmieux toutes les meilleures pratiques git, en utilisant github et gitlab pour le backup.ddf
 
 ## Lancer le projet
 
