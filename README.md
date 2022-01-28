@@ -19,7 +19,7 @@ git remote set-url --add --push origin https://gitlab.com/matteo41/backup-mat2fl
 
 ## Présentation du projet
 
-Ce projet a été realisé pour le projet DOCKER-GITFLOW.
+Ce projet a été realisé poure le projet DOCKER-GITFLOW.
 L'objectif était de respecter au mieux toutes les meilleures pratiques git, en utilisant github et gitlab pour le backup.
 
 ## Comment participer au projet
