@@ -1,18 +1,28 @@
 # SOUTENANCE PROJET DOCKER - GITFLOW
 
-## Starter
+## Lancer le projet
 
-- Gitclone
-- add remote back-up like [here](https://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes)
+- git clone https://github.com/mat2flo/mat2flo-soutenance-docker-gitflow.git
+- lancer le projet avec: docker compose up
+- sur vottre navigateur, accéder au client adminer en tapant localhost:8080
+- remplir le formulaire avec les informations situés dans config.php
+- importer le fichier dump.sql dans adminer
+- accéder à l'application à l'adresse localhost:8100
 
+## Comment contribuer au projet
 
+Demander
+après le git clone: git@github.com:mat2flo/mat2flo-soutenance-docker-gitflow.git
+git remote set-url --add --push origin https://gitlab.com/matteo41/backup-mat2flo-soutenance-docker-gitflow.git)
 
+## Conventions
 
+## Présentation du projet
 
+Ce projet a été realisé pour le projet DOCKER-GITFLOW.
+L'objectif était de respecter au mieux toutes les meilleures pratiques git, en utilisant github et gitlab pour le backup.
 
-
-
-Objectif:
+## Comment participer au projet
 
 Vous devez connecter les services docker entre eux pour que le PHP puisse accéder à votre BDD et afficher la liste d'articles.
 
@@ -23,5 +33,3 @@ Créer votre propre repo GitHub (ou un fork) pour héberger votre solution propo
 Vous devez compléter le docker-compose pour faire fonctionner les services entre eux.
 
 Compléter le fichier config.php avec les bonnes informations pour que PDO puisse se connecter à votre BDD
-
-Vous devez avoir ce résultat ![result](https://github.com/quentinhermiteau/tp-docker-php/blob/main/result.png?raw=true)
